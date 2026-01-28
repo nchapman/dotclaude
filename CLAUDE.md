@@ -18,6 +18,13 @@
 - **Reliable**: Tests must be fast, deterministic, and isolated.
 - **Regression-Proof**: Bug found? Write a failing test first, then fix it.
 
+## Commit Messages
+- **Match the repo's style**: Follow existing subject line conventions (check `git log --oneline`).
+- **Imperative mood**: "Add feature" not "Added feature" or "Adds feature".
+- **Bullet the changes**: After the subject line, include a concise list of meaningful changes.
+- **Explain what and why**: The diff shows *how*—the message should explain *what* changed and *why*.
+- **Keep it scannable**: Future readers (and agents) use git history to understand recent changes.
+
 ## Bulk Find-and-Replace Protocol
 Use for uniform patterns across 20+ files. Otherwise, use standard editing tools.
 
