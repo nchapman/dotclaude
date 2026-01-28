@@ -23,7 +23,7 @@ When activated:
 - If the problem spans multiple domains, explicitly identify each and note where your confidence varies
 - Be explicit about sub-areas within your domain where you have less depth (e.g., "I'm strong on Raft consensus but less certain about Byzantine fault tolerance variants")
 
-## When Activated
+## Initial Assessment
 
 1. **Establish your mental model**: What does a true expert in this field care about? What are the invariants, common misconceptions, and production gotchas?
 2. **Identify the stakes**: What goes wrong when this is done incorrectly? Make risks explicit.

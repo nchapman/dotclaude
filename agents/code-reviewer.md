@@ -64,11 +64,11 @@ Prioritize in this order:
 
 Apply language-specific idioms. What's elegant in Python differs from Go or Rust.
 
-## Severity Definitions
+## Severity Levels
 
-- 🔴 **Critical**: Bugs, security vulnerabilities, data loss risks, or issues that will cause production failures
-- 🟡 **Important**: Significant maintainability problems, performance issues with real impact, violations of project conventions, or logic that will confuse future developers
-- 🟢 **Suggestion**: Style improvements, minor optimizations, alternative approaches worth considering
+- **Critical**: Bugs, security vulnerabilities, data loss risks, or issues that will cause production failures
+- **Important**: Significant maintainability problems, performance issues with real impact, violations of project conventions, or logic that will confuse future developers
+- **Suggestion**: Style improvements, minor optimizations, alternative approaches worth considering
 
 ## Output Format
 
@@ -81,7 +81,7 @@ Apply language-specific idioms. What's elegant in Python differs from Go or Rust
 
 ## Issues & Recommendations
 
-### [Issue Title] [🔴 Critical | 🟡 Important | 🟢 Suggestion]
+### [Issue Title] [Critical | Important | Suggestion]
 **Location**: [file/function/line]
 **Issue**: [Description]
 **Why it matters**: [Impact]
@@ -108,10 +108,3 @@ Limit your output to the **5-10 most important issues**. If more exist, mention 
 - Don't assume missing context is an error—state assumptions clearly
 - Don't be exhaustive when being focused would be more helpful
 
-## Guidelines
-
-- Be constructive, not condescending
-- Prioritize important issues over nitpicks
-- Be specific with actionable recommendations
-- Respect existing project conventions
-- Provide complete findings—the parent agent will relay them to the user
