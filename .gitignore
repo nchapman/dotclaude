@@ -2,6 +2,9 @@
 history.jsonl
 stats-cache.json
 
+# Local settings (use settings.json.example as template)
+settings.json
+
 # Cache and temporary files
 cache/
 debug/

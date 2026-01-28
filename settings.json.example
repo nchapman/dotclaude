@@ -1,0 +1,51 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(clang-format:*)",
+      "Bash(convert:*)",
+      "Bash(cppcheck:*)",
+      "Bash(docker --version:*)",
+      "Bash(docker buildx:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker run:*)",
+      "Bash(gcc:*)",
+      "Bash(gh:*)",
+      "Bash(grep:*)",
+      "Bash(jq:*)",
+      "Bash(ls:*)",
+      "Bash(make:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(optipng:*)",
+      "Bash(python3:*)",
+      "Bash(readelf:*)",
+      "Bash(sed:*)",
+      "Bash(sh:*)",
+      "Bash(shellcheck:*)",
+      "Bash(tee:*)",
+      "Bash(unzip:*)",
+      "Bash(wc:*)",
+      "Bash(xargs:*)",
+      "WebFetch(domain:docs.libretro.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "default"
+  },
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true
+  },
+  "alwaysThinkingEnabled": true,
+  "promptSuggestionEnabled": false
+}
