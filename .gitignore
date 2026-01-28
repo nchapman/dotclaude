@@ -23,3 +23,13 @@ projects/
 
 # Plugin state (regenerated on install)
 plugins/
+
+# Additional safety patterns
+*.log
+*.db
+*.sqlite*
+.env*
+credentials*
+*.pem
+*.key
+*.bak
