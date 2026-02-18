@@ -18,6 +18,9 @@ statsig/
 telemetry/
 todos/
 
+tasks/
+usage-data/
+
 # Project-specific session data (contains conversation history)
 projects/
 
