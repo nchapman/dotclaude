@@ -5,6 +5,12 @@ stats-cache.json
 # Local settings (use settings.json.example as template)
 settings.json
 
+# Runtime data
+backups/
+downloads/
+sessions/
+mcp-needs-auth-cache.json
+
 # Cache and temporary files
 cache/
 debug/
