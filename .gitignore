@@ -38,7 +38,7 @@ plugins/
 *.db
 *.sqlite*
 .env*
-credentials*
+*credentials*
 *.pem
 *.key
 *.bak
